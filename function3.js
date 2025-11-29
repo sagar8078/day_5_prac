@@ -1,5 +1,5 @@
 function add(a,b,...c){
-    console.log(a,b, ...c); // here it is Rest operator it is not spread operator
+    console.log(a,b, ...c); // here it is Rest operator it is not spread operator and rest opertor will work only at last in parameter
     
 }
 
