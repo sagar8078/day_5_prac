@@ -6,6 +6,8 @@ A.forEach((i) =>
     
 );
 
+// for each never return, it used only for loop and it never make changes to the original array, it only used for print 
+
 
 // forEach loop is the replacement of the for loop
 
@@ -19,13 +21,13 @@ for(i=0;i<A.length;i++)
 }
 
 
-// map loop
+// map loop returns a new array
 
 A.map((i)=>
 console.log(i)
 )
 
-//filter
+//filter it return array but for filter only
 
 A.filter((i)=>
 console.log(i)
